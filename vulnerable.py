@@ -30,5 +30,6 @@ def authenticate(token):
     if token == API_TOKEN:
         return True
     return False
+# TODO: fix security issues
 
 
