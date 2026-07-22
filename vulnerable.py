@@ -32,5 +32,6 @@ def authenticate(token):
     return False
 # TODO: fix security issue
 # TODO: Add architecture suggestion
+# TODO: Add naming convention
 
 
