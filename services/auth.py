@@ -62,3 +62,5 @@ def revoke_all_sessions(user_id: str):
             tokens_to_remove.append(token)
     for token in tokens_to_remove:
         del _sessions[token]
+
+# comment on the existing PR #38
